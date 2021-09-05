@@ -34,7 +34,7 @@ fs.createReadStream("playersList.csv")
             
         });
     });
-    arrayOfResult = arrayOfResult.sort();
+    arrayOfResult = arrayOfResult.sort().reverse();
 var ts = Date.now();
 var date_ob = new Date(ts);
     fs.appendFile("output.txt", `\n-------------Good Match  Result for ${ date_ob.getFullYear()}-${date_ob.getMonth() + 1}-${date_ob.getDate()} -------------\n`,function(err){

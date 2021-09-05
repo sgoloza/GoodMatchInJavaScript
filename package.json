@@ -1,0 +1,24 @@
+{
+  "name": "graduateassessment",
+  "version": "1.0.0",
+  "description": "Derivco graduate assessment",
+  "main": "match.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node match.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgoloza/GraduateAssessment.git"
+  },
+  "author": "Kwanele Maduna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgoloza/GraduateAssessment/issues"
+  },
+  "homepage": "https://github.com/sgoloza/GraduateAssessment#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0"
+  }
+}

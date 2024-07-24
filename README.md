@@ -1,4 +1,6 @@
 # GoodMatch
+
+This Project was completed using JavaScript.
 - ### The problem :
   
 This code calculate the match percentage between two peoples first names.
